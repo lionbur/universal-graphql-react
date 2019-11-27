@@ -1,4 +1,4 @@
-# Nougit Test
+# Universal GraphQL React Demo
 
 This is a demonstration of my full-stack coding capabilities.
 
