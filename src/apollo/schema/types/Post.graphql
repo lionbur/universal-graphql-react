@@ -1,0 +1,17 @@
+# import Author from 'Author.graphql'
+
+type Post {
+  author: Author
+  popularity: Float
+  isTrending: Boolean
+  date: String
+  title: String
+  description: String
+  numComments: Int
+  thumbnail: String
+  codeSubmissionTotal: Int
+  pledgeTotal: Int
+  pledgeGoal: Int
+  pledgerCount: Int
+  status: Int
+}

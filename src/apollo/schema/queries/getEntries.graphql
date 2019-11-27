@@ -1,0 +1,23 @@
+# import Tasks from '../types/PostsResult.graphql'
+# import Status from '../types/Status.graphql'
+
+enum Filter {
+  ALL
+  TRENDING
+  OPEN
+  COMPLETED
+}
+
+enum SortBy {
+  DATE
+  POPULARITY
+}
+
+type Query {
+  getEntries(
+    first: Int,
+    offset: Int,
+    filter: Filter,
+    sort: SortBy
+  ): [Post]
+}
